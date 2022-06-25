@@ -1,0 +1,74 @@
+.btn{
+	background-color: #74cdd1; 
+	border: none;
+	border-radius: 6px;
+	height: 35px;
+	margin: 20px 0;
+}
+
+.btn:hover{
+	background-color: #00bcad;
+	color: #fefefe;
+	cursor: pointer;
+}
+
+.container{
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 1rem;
+	width: 70vw;
+}
+
+.campo{
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 15px;
+	width: 50%;
+}
+
+input[type=number]{
+	border: none;
+	height: 32px;
+}
+
+form{
+	align-items: center;
+	background-color: #d6eeeb;
+	border: 1px solid #5d9b9b;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	justify-content: space-evenly;
+	width: 60%;
+}
+
+.formulario{
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.invisivel{
+	display: none;
+}
+
+.imc-resultado{
+	background-color: #dfd880;
+	border-radius: 12px;
+	display: flex;
+	height: 20px;
+	padding: 15px;
+	width: 50px;
+}
+
+table{
+	width: 100%;
+}
+
+td{
+	padding: 15px;
+}
